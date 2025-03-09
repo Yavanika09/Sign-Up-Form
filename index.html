@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://www.shutterstock.com/image-vector/create-your-account-icon-user-260nw-2137553165.jpg" type="image/x-icon" />
+    <title>Signup Form</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+    <h1>Signup</h1>
+</header>
+<main>
+    <div class="container">
+    <form>
+        <label for="name"></label>
+        <input id="name" type="text" placeholder="Full Name" required>
+        <br>
+        <label for="email"></label>
+        <input id="email" type="email" placeholder="Email" required>
+        <br>
+        <label for="pwd"></label>
+        <input id="pwd" type="password" placeholder="Password" required>
+        <br>
+        <label for="cnfpwd"></label>
+        <input id="cnfpwd" type="password" placeholder="Confirm Password" required>
+        <br>
+        <label for="dob"></label>
+        <input id="dob" type="date" placeholder="dd-mm-yyyy" required>
+        <br>
+        <div class="radio-group">
+            <input id="ocp-std" type="radio" name="occupation" required>
+            <label for="ocp-std">Student</label>
+        
+            <input id="ocp-emp" type="radio" name="occupation" required>
+            <label for="ocp-emp">Employee</label>
+        </div>
+        <br>
+        <div class="checlbox-group">
+        <label for="tnc"></label>
+        <input id="tnc" type="checkbox" required> I agree to all the Terms and conditions
+    </div>
+        <br>
+        <button>Signup</button>
+    </form>
+</div>
+</main>
+<footer>
+
+</footer>
+</div>
+</body>
+</html>
